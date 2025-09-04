@@ -1,4 +1,6 @@
-﻿namespace Problems
+﻿using Problems.Problem;
+
+namespace Problems
 {
     public class Program
     {
