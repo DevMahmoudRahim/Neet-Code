@@ -1,4 +1,5 @@
-﻿using Problems.Problem;
+﻿using Microsoft.VisualBasic;
+using Problems.Problem;
 
 namespace Problems
 {
@@ -6,8 +7,9 @@ namespace Problems
     {
         static void Main(string[] args)
         {
-            int[] ints = { 1, 2, 3, 4 };
-            Console.WriteLine(ContainsDuplicate.HasDuplicate(ints));
+            string s = "racecar";
+            string t = "carrace";
+            Console.WriteLine(ValidAnagram.IsAnagram(s, t));
         }
     }
 }
